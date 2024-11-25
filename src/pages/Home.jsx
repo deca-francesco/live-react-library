@@ -1,23 +1,27 @@
+import MainMenu from "../components/MainMenu";
+
 export default function Home() {
 
     return (
         <>
             <header>
-                <div className="logo">
-                    <strong>LOGO</strong>
+                <div className="container">
+                    <div className="logo">
+                        <strong>LOGO</strong>
+                    </div>
+                    <MainMenu />
                 </div>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/books">Books</a>
-                    <a href="/about">About</a>
-                    <a href="/contacts">Contacts</a>
-                </nav>
             </header>
             <main>
-                <h1>Home Page</h1>
+                <div className="container">
+                    <h1>Home Page</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis placeat qui quasi nisi odio, sit itaque dolorem alias, modi, similique iusto saepe velit veniam dolorum vel doloribus! Quisquam, eos aspernatur?</p>
+                </div>
             </main>
             <footer>
-                <span>&copy; {new Date().getFullYear()}</span>
+                <div className="container">
+                    <span>&copy; {new Date().getFullYear()}</span>
+                </div>
             </footer>
         </>
     )
