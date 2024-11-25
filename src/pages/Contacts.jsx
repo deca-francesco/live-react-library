@@ -4,24 +4,10 @@ export default function Contacts() {
 
     return (
         <>
-            <header>
-                <div className="container">
-                    <div className="logo">
-                        <strong>LOGO</strong>
-                    </div>
-                    <MainMenu />
-                </div>
-            </header>
-            <main>
-                <div className="container">
-                    <h1>Contacts Page</h1>
-                </div>
-            </main>
-            <footer>
-                <div className="container">
-                    <span>&copy; {new Date().getFullYear()}</span>
-                </div>
-            </footer>
+            <div className="container">
+                <h1>Contacts Page</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil id aliquam atque commodi quo incidunt fugiat doloremque quaerat in a. Eius voluptatem voluptates minus quas et. Doloribus perspiciatis placeat alias.</p>
+            </div>
         </>
     )
 }

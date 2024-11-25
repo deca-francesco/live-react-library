@@ -4,24 +4,10 @@ export default function About() {
 
     return (
         <>
-            <header>
-                <div className="container">
-                    <div className="logo">
-                        <strong>LOGO</strong>
-                    </div>
-                    <MainMenu />
-                </div>
-            </header>
-            <main>
-                <div className="container">
-                    <h1>About Page</h1>
-                </div>
-            </main>
-            <footer>
-                <div className="container">
-                    <span>&copy; {new Date().getFullYear()}</span>
-                </div>
-            </footer>
+            <div className="container">
+                <h1>About Page</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, eius fuga aspernatur saepe cupiditate reiciendis mollitia illum doloremque explicabo deleniti debitis accusantium ullam autem perferendis ipsum molestias ea laborum sed!</p>
+            </div>
         </>
     )
 }

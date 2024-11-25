@@ -4,24 +4,10 @@ export default function Books() {
 
     return (
         <>
-            <header>
-                <div className="container">
-                    <div className="logo">
-                        <strong>LOGO</strong>
-                    </div>
-                    <MainMenu />
-                </div>
-            </header>
-            <main>
-                <div className="container">
-                    <h1>Books Page</h1>
-                </div>
-            </main>
-            <footer>
-                <div className="container">
-                    <span>&copy; {new Date().getFullYear()}</span>
-                </div>
-            </footer>
+            <div className="container">
+                <h1>Books Page</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero a harum dolorem perferendis nostrum alias hic repellat tempore consequatur cum? Mollitia, ea fugit dolore beatae impedit nulla necessitatibus eaque nihil.</p>
+            </div>
         </>
     )
 }
